@@ -1,58 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TagsForHTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TagsForHTML</title>
 </head>
+
 <body>
-    <!--creates a hyperlink-->
-    <a href="www.google.com">Google</a> 
+  <!--creates a hyperlink-->
+  <a href="www.google.com">Google</a>
 
-    <!-- Used for any atricle like in blogs -->
-    <article>
-        Information
-    </article>
+  <!-- Used for any atricle like in blogs -->
+  <article>
+    Information
+  </article>
 
-    <!-- Used for aside any information -->
-    <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minus!</aside>
+  <!-- Used for aside any information -->
+  <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minus!</aside>
 
-    <!-- used for any audio files -->
-    <audio controls src="t-rex-roar.mp3"></audio>
+  <!-- used for any audio files -->
+  <audio controls src="t-rex-roar.mp3"></audio>
 
-    <!-- For making text bold -->
-     <b>hello world</b>
+  <!-- For making text bold -->
+  <b>hello world</b>
 
-     <!--Used for quoting -->
-     <blockquote cite="https://www.huxley.net/bnw/four.html">
-        
-          Words can be like X-rays, if you use them properly—they’ll go through
-          anything. You read and you’re pierced.
-        
-      </blockquote>
-      <p>—Aldous Huxley, <cite>Brave New World</cite></p>
+  <!--Used for quoting -->
+  <blockquote cite="https://www.huxley.net/bnw/four.html">
 
-      <!-- used for line break(but not recommended) -->
-       <br>hii everyone <br>
+    Words can be like X-rays, if you use them properly—they'll go through
+    anything. You read and your'e pierced.
 
-       <!-- Displaying a button -->
-       <button class="favorite styled" type="button">Add to favorites</button>
+  </blockquote>
+  <p>—Aldous Huxley, <cite>Brave New World</cite></p>
 
-       <!-- Text in computer code font -->
-       <code>
+  <!-- used for line break(but not recommended) -->
+  <br>hii everyone <br>
+
+  <!-- Displaying a button -->
+  <button class="favorite styled" type="button">Add to favorites</button>
+
+  <!-- Text in computer code font -->
+  <code>
         It is used for showing real coding texts
        </code>
-       <br>
-       <!-- To show details in hidden mode -->
-       <details>
-        <summary>Details</summary>
-        Something small enough to escape casual notice.
-      </details>
+  <br>
+  <!-- To show details in hidden mode -->
+  <details>
+    <summary>Details</summary>
+    Something small enough to escape casual notice.
+  </details>
 
-      <!--It is the generic container for flow content -->
-      <div>
-        <h3>hello</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.</p>
-      </div>
+  <!--It is the generic container for flow content -->
+  <div>
+    <h3>hello</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.</p>
+  </div>
+
+  <!-- used to write with more stress(italic) -->
+  <em>Why am i doing this?</em>
+
+  <!-- used to embed someting from other web to our web -->
+  <embed type="video/mp4" src="/shared-assets/videos/flower.mp4" width="250" height="200" />
+
+  <!-- form tag is important -->
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required />
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required />
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!" />
+    </div>
+  </form>
+
+  <!-- for headings -->
+  <h1>Hello</h1>
+  <h2>Hello</h2>
+  <h3>Hello</h3>
+  <h4>Hello</h4>
+  <h5>Hello</h5>
+  <h6>Hello</h6>
+
+  <!-- head contains machine readable info like metadata -->
+  <!-- see example at the top of file -->
+  <!-- the <html> is the root element  -->
+
+  <!-- it is used to embedding another HTML page into the current one-->
+  <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+  </iframe>
+
+  <!--it is used an image to your webpage  -->
+  <img class="fit-picture" src="/shared-assets/images/examples/grapefruit-slice.jpg"
+    alt="Grapefruit slice atop a pile of other slices" />
+
+  <!--input tag is used to take input from user -->
+  <!--label represents a caption for an item in a user interface -->
+  <label for="name">Name (4 to 8 characters):</label>
+
+  <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+
+
+
+
+
 </body>
+
 </html>
