@@ -1,0 +1,14 @@
+head{
+    font-family:'Times New Roman', Times, serif
+    
+}
+#span1{
+    font-size: 50px;
+    background-color: rgb(212, 255, 0);
+}
+div{
+    background-color: antiquewhite;
+}
+footer{
+    font-size: 10px;
+}
