@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .zero{
     background-color: aquamarine;
 }
@@ -11,4 +15,16 @@
 pre{
     color: rgb(233, 156, 41);
     background-color: rgb(242, 239, 235);
+}
+.box{
+    background-color: bisque;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
 }
