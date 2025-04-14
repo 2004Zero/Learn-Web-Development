@@ -41,7 +41,7 @@ div {
     border: 2px solid rgb(0, 0, 0);
     padding: 5px;
     margin: 10px;
-    box-shadow: 5px 5px 15px 2px rgb(174, 250, 9);
+    box-shadow: 5px 5px 15px 2px rgb(255, 255, 255);
     font-family: "National Park", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -49,6 +49,7 @@ div {
     align-items: center;
     height: 20px;
     width: 300px;
+    /* border-radius: 10px; */
     
 }
 
@@ -87,11 +88,11 @@ span{
     font-variation-settings:
         "wdth" 100;
     color: rgb(255, 255, 255);
-    text-shadow: 5px 5px 15px rgb(174, 250, 9);
+    /* text-shadow: 5px 5px 20px rgb(255, 255, 255); */
 }
 .box2{
     margin: 10px;
-    box-shadow: 2px 2px 5px 2px rgb(174, 250, 9);
+    box-shadow: 2px 2px 5px 2px hsl(44, 88%, 65%);
 }
 nav img{
     border-radius: 10px;
