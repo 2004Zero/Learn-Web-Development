@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolour</title>
+    <style>
+        /* this is a multi color website using variables  */
+        /* *{
+            margin: 0px;
+            padding: 0px;
+        } */
+         :root{
+            --color:rgba(68, 0, 255, 0.728);
+            --2color:rgb(244, 244, 5);
+            --defpad:10px;
+            --3color:rgb(16, 216, 16);
+         }
+         nav ul{
+            display: flex;
+           
+         }
+        nav ul li{
+            padding: 10px;
+            margin:10px;
+            color: var(--color);
+            background-color: var(--2color);
+            border-radius: 20px;
+         }
+         p{
+            color: var(--3color);
+            padding: var(--defpad);
+         }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Support</li>
+        </ul>
+
+    </nav>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus libero impedit dolore iure, molestias suscipit numquam minus praesentium obcaecati eum deleniti tempore quo!
+        </p>
+    </div>
+    
+</body>
+</html>
